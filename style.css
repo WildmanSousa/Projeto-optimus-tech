@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: #667085;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  margin: 0.3em 3.3em;
+}
+
+.cabecalho__titulo {
+  color: #3a404e;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.cabecalho__link {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #667085;
+  border: none;
+  background-color: white;
+}
+
+.cabecalho__paginas {
+  margin-right: auto;
+  margin-left: 10%;
+  gap: 2em;
+}
+
+.cabecalho__botao {
+  border-radius: 8px;
+  border: 1px solid #8e2424;
+  background: #8e2424;
+  padding: 10px 18px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 1em;
+}
+
+.cabecalho__botao:hover {
+  background-color: grey;
+}
+
+.secao__superior {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.secao__span {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #8e2424;
+  margin: 6em 0 2em 0;
+}
+
+.secao__titulo {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #101828;
+  margin-left: 30%;
+  margin-bottom: 0.6em;
+}
+
+.secao__paragrafo {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #667085;
+  flex-wrap: wrap;
+  width: 51%;
+  margin-left: 25%;
+}
+
+.metricas-container {
+  display: flex;
+  margin: 5em 6em;
+  gap: 3em;
+}
+
+.titulo-metrica {
+  color: #8e2424;
+  font-family: "Inter", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.subtitulo-metrica {
+  color: #101828;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.paragrafo-metrica {
+  color: #667085;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  width: 100%;
+}
+
+.section__img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.span__segunda-section {
+  color: #8e2424;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 16px;
+  background: rgba(142, 36, 36, 0.05);
+  padding: 4px 12px;
+  margin-left: 17em;
+}
+
+.titulo__segunda-section {
+  color: #101828;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  align-self: stretch;
+  margin: 0.8em 0;
+}
+
+.paragrafo__segunda-section {
+  color: #667085;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.imagem__section {
+  width: 1216px;
+  height: 400px;
+  margin-bottom: 4em;
+}
+
+.section__vagas {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 2em 11em;
+}
+
+.titulo__vagas {
+  color: #101828;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nome__vaga {
+  color: #101828;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.informacoes {
+  color: #667085;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.vagas {
+  display: flex;
+  padding: 24px 24px 28px 24px;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 16px;
+  border: 1px solid #eaecf0;
+  background: #fff;
+}
+.vaga__back {
+  margin-bottom: 4em;
+}
+
+.tempo-trabalho {
+  margin-right: 0.8em;
+}
+
+.depoimentos {
+  display: flex;
+  padding: 64px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  border-radius: 16px;
+  background: rgba(195, 25, 25, 0.03);
+  width: 70%;
+  margin: auto;
+  font-family: "Inter", sans-serif;
+}
+
+.minitext__depoimentos {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #8e2424;
+}
+
+.titulo__depoimentos {
+  color: #101828;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.nome__depoimentos {
+  color: #101828;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.cargo__depoimentos {
+  color: #667085;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.secao__imagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.rodape {
+  display: flex;
+  height: 430px;
+  padding: 96px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  background: #f9fafb;
+  margin-top: 5em;
+}
+
+.rodape__titulo {
+  color: #101828;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.rodape__paragrafo {
+  color: #667085;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+.secao__email {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+.rodape__email {
+  display: flex;
+  padding: 12px 14px 12px 16px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  background: #fff;
+  width: 360px;
+}
+.rodape__email::placeholder {
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  color: #667085;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.rodape__botao {
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #8e2424;
+  background: #8e2424;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.rodape__texto {
+  color: #98a2b3;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
